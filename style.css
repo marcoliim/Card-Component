@@ -1,0 +1,40 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: top -80vh left -25vw, top 45vh right -15vw;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .card-body .card-profile {
+  margin-top: -65px;
+  position: relative;
+  display: block;
+}
+.card .card-status {
+  display: flex;
+  justify-content: center;
+}
+
+.card .card-status .card-status-item {
+  margin: 0 1em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
